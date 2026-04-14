@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    /* width: 1024px; */
+    margin: auto;
+
+}
+
+.Banner {
+    padding: 30px 50px 50px 50px;
+    margin: auto;
+    text-align: center;
+}
+
+.Banner h1 {
+    margin: 0;
+    font-size: 60px;
+    color: #3b506c;
+}
+
+.banner-div {
+    padding: 20px 50px 10px;
+    text-transform: capitalize;
+    margin-top: 50px;
+}
+
+.banner-div span {
+    color: #0c66fe;
+}
+
+header {
+    padding: 20px 50px 10px;
+    box-shadow: 11px 5px 11px 0px gray;
+}
+
+.logo {
+    width: 30%;
+
+}
+
+nav {
+    width: 70%;
+    transform: translate(20%, -10%);
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: #3b506c;
+    font-weight: 600;
+}
+
+.banner-div p {
+    margin-top: 50px;
+    word-spacing: 5px;
+    text-align: center;
+    color: #3b506c;
+}
+
+.banner-div img {
+    max-width: 60%;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+.column {
+    display: flex;
+    margin: 0 100px;
+    justify-content: space-between;
+}
+
+.number-text {
+    color: red !important;
+    margin-left: 80px;
+    text-align: right;
+    font-size: 40px;
+}
+
+.feature-text {
+    color: #3b506c;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.box {
+    width: 48%;
+}
+
+.box p {
+    text-align: right;
+    color: #3b506c;
+    font-size: 18px;
+}
